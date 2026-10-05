@@ -401,11 +401,11 @@ hr {
 .hero-links a {
   display: block;
 
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+  padding-top: 0.7rem;
+  padding-bottom: 1rem;
 
-  border-top:
-    1px solid rgba(255, 255, 255, 0.16);
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.55);
 
   font-family:
     "Avenir Next",
