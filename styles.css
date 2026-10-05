@@ -1,1 +1,114 @@
-/* css styles */
+/* ---------- Base ---------- */
+
+body {
+  background-color: #070b13;
+  color: #f4f2ed;
+  font-family: "Helvetica Neue", "Inter", "Avenir Next", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  background-color: #070b13 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f4f2ed !important;
+}
+
+.navbar-nav .nav-link {
+  color: #b8c0ce !important;
+  font-size: 0.95rem;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  margin-left: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* ---------- Main content ---------- */
+
+main.content {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+}
+
+/* ---------- Headings ---------- */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f7f5f0;
+  font-family: "Helvetica Neue", "Inter", "Avenir Next", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.08;
+  margin-bottom: 1.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.3rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+/* ---------- Paragraphs ---------- */
+
+p,
+li {
+  color: #c3cad5;
+  font-size: 1.08rem;
+  line-height: 1.75;
+  font-weight: 300;
+}
+
+/* ---------- Links ---------- */
+
+a {
+  color: #9fc4dc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* ---------- Horizontal rules ---------- */
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ---------- Buttons / badges ---------- */
+
+.btn,
+.badge {
+  border-radius: 999px;
+}
+
+/* ---------- Selection ---------- */
+
+::selection {
+  background: #c8dff0;
+  color: #070b13;
+}
