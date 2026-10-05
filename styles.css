@@ -1,12 +1,32 @@
+/* =========================================================
+   ALAN PERSONAL WEBSITE
+   Minimal dark editorial style
+   ========================================================= */
+
+
 /* ---------- Global ---------- */
+
+html {
+  background: #05070c;
+}
 
 body {
   background: #05070c;
-  color: #eceff3;
-  font-family: "Avenir Next", "Helvetica Neue", "Inter", Arial, sans-serif !important;
+  color: #e8ebef;
+
+  font-family:
+    "Avenir Next",
+    "Helvetica Neue",
+    "Inter",
+    Arial,
+    sans-serif !important;
+
   font-weight: 300 !important;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
+
+  margin: 0;
 }
+
 
 /* ---------- Overall page width ---------- */
 
@@ -16,43 +36,71 @@ body {
 }
 
 main.content {
-  max-width: 1120px;
+  max-width: 1080px;
   margin: 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 7rem;
+
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 }
+
 
 /* ---------- Navbar ---------- */
 
 .navbar {
   background: #05070c !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
-  padding-top: 1.4rem;
-  padding-bottom: 1.4rem;
+
+  border-bottom:
+    1px solid rgba(255, 255, 255, 0.08);
+
   box-shadow: none !important;
+
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
+
+
+/* Site name */
 
 .navbar-brand {
-  font-family: "Avenir Next", "Helvetica Neue", sans-serif !important;
-  font-size: 0.98rem !important;
+  font-family:
+    "Avenir Next",
+    "Helvetica Neue",
+    Arial,
+    sans-serif !important;
+
+  font-size: 0.92rem !important;
   font-weight: 400 !important;
-  letter-spacing: 0.16em !important;
+
+  letter-spacing: 0.15em !important;
   text-transform: uppercase;
-  color: #f5f4f1 !important;
+
+  color: #f4f3ef !important;
 }
 
+
+/* Navigation links */
+
 .navbar-nav .nav-link {
-  font-family: "Avenir Next", "Helvetica Neue", sans-serif !important;
-  font-size: 0.92rem !important;
+  font-family:
+    "Avenir Next",
+    "Helvetica Neue",
+    Arial,
+    sans-serif !important;
+
+  font-size: 0.88rem !important;
   font-weight: 300 !important;
-  letter-spacing: 0.05em !important;
-  color: #aeb7c5 !important;
-  margin-left: 1.3rem;
+
+  letter-spacing: 0.04em !important;
+
+  color: #aeb6c1 !important;
+
+  margin-left: 1.15rem;
 }
 
 .navbar-nav .nav-link:hover {
   color: #ffffff !important;
 }
+
 
 /* ---------- Headings ---------- */
 
@@ -62,72 +110,127 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Avenir Next", "Helvetica Neue", "Inter", Arial, sans-serif !important;
+  font-family:
+    "Avenir Next",
+    "Helvetica Neue",
+    "Inter",
+    Arial,
+    sans-serif !important;
+
   color: #f4f3ef !important;
+
   font-weight: 300 !important;
-  letter-spacing: -0.02em !important;
+
+  letter-spacing: 0 !important;
+
+  border-bottom: none !important;
 }
 
+
+/* Main page title */
+
 h1 {
-  font-size: 3rem !important;
-  line-height: 1.08 !important;
+  font-size: 2.15rem !important;
+  line-height: 1.18 !important;
+
+  margin-top: 0 !important;
   margin-bottom: 1.4rem !important;
 }
 
+
+/* Section headings */
+
 h2 {
-  font-size: 1.65rem !important;
-  line-height: 1.25 !important;
-  margin-top: 3.6rem !important;
-  margin-bottom: 1.1rem !important;
+  font-size: 1.35rem !important;
+  line-height: 1.3 !important;
+
+  margin-top: 3.5rem !important;
+  margin-bottom: 1.15rem !important;
 }
+
+
+/* Smaller headings */
 
 h3 {
-  font-size: 1.2rem !important;
+  font-size: 1.05rem !important;
+  line-height: 1.35 !important;
+
   font-weight: 400 !important;
+
+  margin-top: 2rem !important;
+  margin-bottom: 0.8rem !important;
 }
 
-p,
-li {
-  font-size: 0.98rem !important;
-  line-height: 1.75 !important;
-}
 
 /* ---------- Body text ---------- */
 
 p,
 li {
-  font-family: "Avenir Next", "Helvetica Neue", "Inter", Arial, sans-serif !important;
-  color: #bfc6d2 !important;
-  font-size: 1.05rem !important;
-  line-height: 1.8 !important;
+  font-family:
+    "Avenir Next",
+    "Helvetica Neue",
+    "Inter",
+    Arial,
+    sans-serif !important;
+
+  color: #b9c0ca !important;
+
+  font-size: 0.96rem !important;
+  line-height: 1.75 !important;
+
   font-weight: 300 !important;
 }
 
+
+/* Lists */
+
+ul,
+ol {
+  padding-left: 1.4rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}
+
+
+/* ---------- Strong text ---------- */
+
 strong {
   font-weight: 500 !important;
-  color: #f4f3ef;
+  color: #f1f1ee !important;
 }
+
 
 /* ---------- Links ---------- */
 
 a {
-  color: #9cc7df !important;
+  color: #9fc4da !important;
   text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    opacity 0.2s ease;
 }
 
 a:hover {
   color: #ffffff !important;
 }
 
-/* ---------- Section separators ---------- */
+
+/* ---------- Horizontal rules ---------- */
 
 hr {
   border: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.08);
+
   margin: 3rem 0;
 }
 
-/* ---------- Remove heavy Quarto defaults ---------- */
+
+/* ---------- Quarto cleanup ---------- */
 
 .quarto-title-block .quarto-title-banner {
   background: transparent !important;
@@ -138,21 +241,80 @@ hr {
 }
 
 .anchorjs-link {
-  opacity: 0 !important;
+  display: none !important;
 }
 
-/* ---------- Better mobile spacing ---------- */
+
+/* ---------- Buttons ---------- */
+
+.btn {
+  border-radius: 999px !important;
+
+  font-family:
+    "Avenir Next",
+    "Helvetica Neue",
+    Arial,
+    sans-serif !important;
+
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+
+  padding: 0.5rem 1rem;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.12) !important;
+
+  background:
+    rgba(255, 255, 255, 0.05) !important;
+
+  color: #e9edf2 !important;
+}
+
+.btn:hover {
+  background:
+    rgba(255, 255, 255, 0.09) !important;
+}
+
+
+/* ---------- Text selection ---------- */
+
+::selection {
+  background: #c9dce8;
+  color: #05070c;
+}
+
+
+/* ---------- Mobile ---------- */
 
 @media (max-width: 768px) {
+
   main.content {
-    padding: 2.5rem 1.2rem 4rem 1.2rem;
+    padding:
+      2.5rem 1.25rem 4rem 1.25rem;
   }
 
   h1 {
-    font-size: 2.7rem !important;
+    font-size: 1.9rem !important;
   }
 
   h2 {
-    font-size: 1.7rem !important;
+    font-size: 1.25rem !important;
+  }
+
+  h3 {
+    font-size: 1rem !important;
+  }
+
+  p,
+  li {
+    font-size: 0.94rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 0.88rem !important;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.86rem !important;
   }
 }
