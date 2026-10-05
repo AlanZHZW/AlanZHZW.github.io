@@ -1,114 +1,153 @@
-/* ---------- Base ---------- */
+/* ---------- Global ---------- */
 
 body {
-  background-color: #070b13;
-  color: #f4f2ed;
-  font-family: "Helvetica Neue", "Inter", "Avenir Next", Arial, sans-serif;
-  font-weight: 300;
+  background: #05070c;
+  color: #eceff3;
+  font-family: "Avenir Next", "Helvetica Neue", "Inter", Arial, sans-serif !important;
+  font-weight: 300 !important;
   letter-spacing: 0.01em;
+}
+
+/* ---------- Overall page width ---------- */
+
+.page-columns {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+main.content {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
 }
 
 /* ---------- Navbar ---------- */
 
 .navbar {
-  background-color: #070b13 !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
+  background: #05070c !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  box-shadow: none !important;
 }
 
 .navbar-brand {
-  font-size: 1.05rem;
-  font-weight: 400;
-  letter-spacing: 0.12em;
+  font-family: "Avenir Next", "Helvetica Neue", sans-serif !important;
+  font-size: 0.98rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.16em !important;
   text-transform: uppercase;
-  color: #f4f2ed !important;
+  color: #f5f4f1 !important;
 }
 
 .navbar-nav .nav-link {
-  color: #b8c0ce !important;
-  font-size: 0.95rem;
-  font-weight: 300;
-  letter-spacing: 0.04em;
-  margin-left: 1rem;
+  font-family: "Avenir Next", "Helvetica Neue", sans-serif !important;
+  font-size: 0.92rem !important;
+  font-weight: 300 !important;
+  letter-spacing: 0.05em !important;
+  color: #aeb7c5 !important;
+  margin-left: 1.3rem;
 }
 
 .navbar-nav .nav-link:hover {
   color: #ffffff !important;
 }
 
-/* ---------- Main content ---------- */
-
-main.content {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding-top: 4rem;
-  padding-bottom: 5rem;
-}
-
 /* ---------- Headings ---------- */
 
-h1, h2, h3, h4, h5, h6 {
-  color: #f7f5f0;
-  font-family: "Helvetica Neue", "Inter", "Avenir Next", Arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: -0.015em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Avenir Next", "Helvetica Neue", "Inter", Arial, sans-serif !important;
+  color: #f4f3ef !important;
+  font-weight: 300 !important;
+  letter-spacing: -0.02em !important;
 }
 
 h1 {
-  font-size: 3.2rem;
-  line-height: 1.08;
-  margin-bottom: 1.4rem;
+  font-size: 4rem !important;
+  line-height: 1.05 !important;
+  margin-bottom: 1.5rem !important;
 }
 
 h2 {
-  font-size: 2rem;
-  margin-top: 3.5rem;
-  margin-bottom: 1.3rem;
+  font-size: 2.1rem !important;
+  line-height: 1.2 !important;
+  margin-top: 4.5rem !important;
+  margin-bottom: 1.4rem !important;
+  border-bottom: none !important;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.35rem !important;
+  font-weight: 400 !important;
 }
 
-/* ---------- Paragraphs ---------- */
+/* ---------- Body text ---------- */
 
 p,
 li {
-  color: #c3cad5;
-  font-size: 1.08rem;
-  line-height: 1.75;
-  font-weight: 300;
+  font-family: "Avenir Next", "Helvetica Neue", "Inter", Arial, sans-serif !important;
+  color: #bfc6d2 !important;
+  font-size: 1.05rem !important;
+  line-height: 1.8 !important;
+  font-weight: 300 !important;
+}
+
+strong {
+  font-weight: 500 !important;
+  color: #f4f3ef;
 }
 
 /* ---------- Links ---------- */
 
 a {
-  color: #9fc4dc;
-  text-decoration: none;
+  color: #9cc7df !important;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
-/* ---------- Horizontal rules ---------- */
+/* ---------- Section separators ---------- */
 
 hr {
-  border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 3rem 0;
 }
 
-/* ---------- Buttons / badges ---------- */
+/* ---------- Remove heavy Quarto defaults ---------- */
 
-.btn,
-.badge {
-  border-radius: 999px;
+.quarto-title-block .quarto-title-banner {
+  background: transparent !important;
 }
 
-/* ---------- Selection ---------- */
+.quarto-title-meta {
+  display: none;
+}
 
-::selection {
-  background: #c8dff0;
-  color: #070b13;
+.anchorjs-link {
+  opacity: 0 !important;
+}
+
+/* ---------- Better mobile spacing ---------- */
+
+@media (max-width: 768px) {
+  main.content {
+    padding: 2.5rem 1.2rem 4rem 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.7rem !important;
+  }
+
+  h2 {
+    font-size: 1.7rem !important;
+  }
 }
