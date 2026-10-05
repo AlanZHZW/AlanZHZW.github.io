@@ -1,12 +1,29 @@
-
 ---
-title: "Alan (Zhehuze Wang)"
+title: ""
 ---
 
-Graduate Student in Physics  
-Stony Brook University
+<div class="hero">
 
-Welcome to my personal website!
+<div class="hero-kicker">
+PHYSICS · COMPUTATION · SCIENTIFIC DISCOVERY
+</div>
+
+# Exploring Nature, Building New Tools.
+
+<div class="hero-subtitle">
+
+Graduate Student in Physics at Stony Brook University.  
+Interested in high-energy astrophysics, black holes, relativistic dynamics, and AI-assisted scientific research.
+
+</div>
+
+<div class="hero-links">
+
+[CV](#) [Publications](#) [GitHub](https://github.com/AlanZHZW) [Contact](mailto:YOUR_EMAIL)
+
+</div>
+
+</div>
 
 ## Research Interests
 
