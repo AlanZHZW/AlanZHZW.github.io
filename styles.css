@@ -318,3 +318,147 @@ hr {
     font-size: 0.86rem !important;
   }
 }
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+
+
+/* Small identity line */
+
+.hero-kicker {
+  font-family:
+    "Avenir Next",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  font-size: 0.78rem;
+  font-weight: 400;
+
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+
+  color: #8fb7cd;
+
+  margin-bottom: 1.8rem;
+}
+
+
+/* Main hero heading */
+
+.hero h1 {
+  max-width: 900px;
+
+  font-size: 2.65rem !important;
+  font-weight: 300 !important;
+
+  line-height: 1.12 !important;
+  letter-spacing: -0.015em !important;
+
+  margin-bottom: 1.4rem !important;
+}
+
+
+/* Introductory sentence */
+
+.hero-subtitle {
+  max-width: 900px;
+
+  font-size: 1.05rem;
+  line-height: 1.75;
+
+  color: #b9c1cc;
+
+  margin-bottom: 3rem;
+}
+
+
+/* ---------- Hero links ---------- */
+
+.hero-links {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 2rem;
+
+  width: 100%;
+
+  margin-top: 2.5rem;
+}
+
+
+/* Each link */
+
+.hero-links a {
+  display: block;
+
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+
+  border-top:
+    1px solid rgba(255, 255, 255, 0.16);
+
+  font-family:
+    "Avenir Next",
+    "Helvetica Neue",
+    Arial,
+    sans-serif !important;
+
+  font-size: 0.82rem !important;
+  font-weight: 400 !important;
+
+  letter-spacing: 0.11em;
+
+  text-transform: uppercase;
+
+  color: #dce2e8 !important;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+
+/* Hover */
+
+.hero-links a:hover {
+  color: #ffffff !important;
+
+  border-color:
+    rgba(255, 255, 255, 0.55);
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 768px) {
+
+  .hero {
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero-subtitle {
+    font-size: 0.96rem;
+  }
+
+  .hero-links {
+    grid-template-columns:
+      repeat(2, 1fr);
+
+    gap: 1.4rem;
+  }
+}
