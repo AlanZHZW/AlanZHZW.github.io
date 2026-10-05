@@ -462,3 +462,69 @@ hr {
     gap: 1.4rem;
   }
 }
+
+/* =========================================================
+   COMPUTING & METHODS
+   ========================================================= */
+
+.method-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.4rem;
+
+  margin-top: 1.8rem;
+}
+
+.method-card {
+  padding: 2rem;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.08);
+
+  background:
+    rgba(255, 255, 255, 0.025);
+
+  min-height: 190px;
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.method-card:hover {
+  background:
+    rgba(255, 255, 255, 0.045);
+
+  border-color:
+    rgba(255, 255, 255, 0.16);
+}
+
+.method-card h3 {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+
+  font-size: 1.08rem !important;
+  font-weight: 400 !important;
+
+  color: #eef1f4 !important;
+}
+
+.method-card p {
+  margin-bottom: 0;
+
+  max-width: 520px;
+
+  color: #aeb6c1 !important;
+}
+
+@media (max-width: 768px) {
+
+  .method-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .method-card {
+    min-height: auto;
+    padding: 1.5rem;
+  }
+}
