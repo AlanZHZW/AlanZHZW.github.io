@@ -5,7 +5,7 @@ title: ""
 <div class="hero">
 
 <div class="hero-kicker">
-PHYSICS · COMPUTATION · SCIENTIFIC DISCOVERY
+PHYSICS · THEORY · SIMULATION / COMPUTATION · SCIENTIFIC DISCOVERY
 </div>
 
 # Exploring Nature, Building New Tools.
