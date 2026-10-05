@@ -25,13 +25,27 @@ Interested in high-energy astrophysics, black holes, relativistic dynamics, and 
 
 </div>
 
-## Research Interests
+## Featured Research
 
-My research interests include:
+<div class="feature-card">
 
-- High-energy astrophysics
-- Black holes (compact objects) and accretion physics
-- Potential: AI-assisted scientific research
+<div class="feature-image">
+
+![](YOUR_IMAGE_HERE)
+
+</div>
+
+<div class="feature-content">
+
+### Relativistic Jet Propagation in AGN Disks
+
+Numerical simulations of relativistic jet propagation through dense astrophysical environments, with emphasis on jet dynamics, collimation, breakout, and environmental interaction.
+
+[Explore research →](#)
+
+</div>
+
+</div>
 
 ## Current Research
 
