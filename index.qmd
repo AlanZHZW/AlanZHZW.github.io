@@ -47,6 +47,28 @@ Numerical simulations of relativistic jet propagation through dense astrophysica
 
 </div>
 
+## Computing & Methods
+
+<div class="method-grid">
+
+<div class="method-card">
+
+### Scientific Computing
+
+Simulation analysis, visualization, reproducible workflows, and numerical methods for high-energy astrophysics.
+
+</div>
+
+<div class="method-card">
+
+### AI for Science
+
+Exploring machine-learning-assisted approaches for simulation analysis, parameter exploration, inference, and scientific discovery.
+
+</div>
+
+</div>
+
 ## Current Research
 
 I am currently studying relativistic jet propagation in
